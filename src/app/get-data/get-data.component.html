@@ -1,0 +1,18 @@
+<div class="gif">
+  <img class="loading_gif" src="https://i.stack.imgur.com/ATB3o.gif" alt="" *ngIf="isLoading">
+
+  <div class="btn_container">
+    <button class="btn_tap" (click)="getDataUsingTap()">Get user's info using Tap</button>
+    <button class="btn_map">Get user's info using Map</button>
+  </div>
+
+  <div class="wrapper">
+      <div class="card" *ngIf="isShow">
+        <h1 class="user_name">Name: {{userName}}</h1>
+        <h1 class="user_mass">Mass: {{userMass}}</h1>
+        <h1 class="user_hair">Hair: {{userHairColor}}</h1>
+      </div>
+  </div>
+
+</div>
+

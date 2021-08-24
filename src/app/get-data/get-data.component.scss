@@ -1,0 +1,82 @@
+.btn_container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn_tap{
+  width: 200px;
+  height: 40px;
+  background: darkblue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+.btn_tap:hover{
+  background: blue;
+  cursor: pointer;
+}
+
+.btn_map{
+  width: 200px;
+  margin-left: 10px;
+  height: 40px;
+  background: darkblue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+.btn_map:hover{
+  background: blue;
+  cursor: pointer;
+}
+
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin-top: 20px;
+  width: 200px;
+  height: 300px;
+  background: black;
+  border-radius: 8px;
+}
+
+.user_name{
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "Roboto Light", sans-serif;
+  color: white;
+}
+
+.user_mass{
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "Roboto Light", sans-serif;
+  color: white;
+}
+
+.user_hair{
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "Roboto Light", sans-serif;
+  color: white;
+}
+
+.loading_gif{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+
