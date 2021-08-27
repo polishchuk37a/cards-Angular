@@ -1,0 +1,60 @@
+.people_cont{
+  width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.people_card{
+  font-size: 10px;
+  font-family: "Roboto Light", sans-serif;
+  margin-left: 50px;
+  margin-top: 40px;
+  width: 200px;
+  height: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.people_card:hover{
+  transform: scale(1.2);
+  transition: transform .5s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.label_people{
+  text-align: center;
+  font-family: "Roboto Light", sans-serif;
+}
+
+.planets_cont{
+  width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.planets_card{
+  font-size: 10px;
+  font-family: "Roboto Light", sans-serif;
+  margin-left: 50px;
+  margin-top: 40px;
+  width: 200px;
+  height: 300px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.planets_card:hover{
+  transform: scale(1.2);
+  transition: transform .5s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.label_planets{
+  text-align: center;
+  font-family: "Roboto Light", sans-serif;
+}
+

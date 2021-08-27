@@ -1,0 +1,27 @@
+<div class="gif">
+  <div class="btn_container">
+    <button class="btn_tap" (click)="getDataUsingTap()">Get user's info using Tap</button>
+  </div>
+
+  <div class="label">
+    <h1>Get info using Tap</h1>
+  </div>
+
+  <div>
+    <a routerLink="../planet">Planets</a>
+    <a class="p_p" routerLink="../People and Planets">People and Planets</a>
+  </div>
+
+  <div class="wrapper-cont">
+    <div class="wrapper" *ngFor="let user of users">
+      <div class="card" *ngIf="isShow">
+        <h1 class="People_label">People</h1>
+        <h1 class="user_name">Name: {{user.name}}</h1>
+        <h1 class="user_mass">Mass: {{user.mass}}</h1>
+        <h1 class="user_hair">Hair: {{user.hair_color}}</h1>
+      </div>
+    </div>
+  </div>
+
+</div>
+

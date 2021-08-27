@@ -1,0 +1,21 @@
+<h1 class="label_people">People</h1>
+<div class="people_cont">
+  <div class="people_block" *ngFor="let pe of people">
+    <div class="people_card">
+      <h1>Name: {{pe.name}}</h1>
+      <h1>Mass: {{pe.mass}}</h1>
+      <h1>Hair color: {{pe.hair_color}}</h1>
+    </div>
+  </div>
+</div>
+
+<h1 class="label_planets">Planets</h1>
+<div class="planets_cont">
+  <div class="planets_block" *ngFor="let pl of planet">
+    <div class="planets_card">
+      <h1>Name: {{pl.name}}</h1>
+      <h1>Diameter: {{pl.diameter}}</h1>
+      <h1>Rotation period:  {{pl.rotation_period}}</h1>
+    </div>
+  </div>
+</div>

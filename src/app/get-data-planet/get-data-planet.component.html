@@ -1,0 +1,28 @@
+<div class="gif">
+
+  <div class="btn_container">
+    <button class="btn_map">Get user's info using Map</button>
+  </div>
+
+  <div>
+    <a routerLink="../people">People</a>
+    <a class="p_p" routerLink="../People and Planets">People and Planets</a>
+  </div>
+
+  <div class="label">
+    <h1>Get info using Map</h1>
+  </div>
+
+  <div class="wrapper-cont">
+    <div class="wrapper" *ngFor="let planet of (x$ | async)">
+      <div class="card">
+        <h1 class="planet_label">Planet</h1>
+        <h1 class="user_name">Name: {{planet.name}}</h1>
+        <h1 class="user_mass">Diameter: {{planet.diameter}}</h1>
+        <h1 class="user_hair">Rotation period: {{planet.rotation_period}}</h1>
+      </div>
+    </div>
+  </div>
+
+</div>
+
